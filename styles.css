@@ -23,6 +23,33 @@ body {
 
   width: 100% - 2px;
   height: 1000px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.site_body_left {
+  border: 4px;
+  border-style: solid;
+  border-color: red;
+
+  width: 10%;
+}
+
+.site_body_right {
+  border: 4px;
+  border-style: solid;
+  border-color: blue;
+
+  width: 10%;
+}
+
+.site_body_mid {
+  border: 4px;
+  border-style: solid;
+  border-color: green;
+
+  width: 80%;
 }
 
 .site_footer {
@@ -32,4 +59,8 @@ body {
 
   width: 100% - 2px;
   height: 200px;
+}
+
+.site_banner {
+  width: 100%;
 }

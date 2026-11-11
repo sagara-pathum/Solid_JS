@@ -1,7 +1,13 @@
+import BodyLeft from "../section/Body.left"
+import BodyMid from "../section/Body.mid"
+import BodyRight from "../section/Body.right"
+
 export default () => {
   return (
     <div class="site_body">
-      <p>this is body</p>
+      <BodyLeft />
+      <BodyMid />
+      <BodyRight />
     </div>
   );
 };
