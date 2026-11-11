@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(222, 222, 222);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.site_header {
+  border: 4px;
+  border-style: solid;
+  border-color: rebeccapurple;
+
+  width: 100% - 2px;
+  height: 50px;
+}
+
+.site_body {
+  border: 4px;
+  border-style: solid;
+  border-color: blue;
+
+  width: 100% - 2px;
+  height: 1000px;
+}
+
+.site_footer {
+  border: 4px;
+  border-style: solid;
+  border-color: green;
+
+  width: 100% - 2px;
+  height: 200px;
+}

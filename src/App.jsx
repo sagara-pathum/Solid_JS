@@ -1,11 +1,13 @@
-
-import Comp from './Comp';
+import Header from "./section/Header";
+import Body from "./section/Body";
+import Footer from "./section/Footer";
 
 const App = () => {
   return (
     <>
-      <h1>Hello world!!!!</h1>
-      <Comp />
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 };
