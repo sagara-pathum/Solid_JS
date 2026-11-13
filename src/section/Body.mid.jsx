@@ -10,11 +10,13 @@ export default () => {
             <p>this is body mid</p>
             <h2 class="text-gray-700 font-bold font-serif p-4">Learnings so far</h2>
             <div class="flex justify-between"> {/* cards go here */}
-                <Card title="What is Solid?" content={content_1} />
-                <Card title="Making a New Solid App" content={content_2} />
-                <Card title="Components" content={content_3} />
+                <Card title="What is Solid?" content={content_1} blue={true} />
+                <Card title="Making a New Solid App" content={content_2} white={true}>
+                    <p>I can print children as well.</p>
+                </Card>
+                <Card title="Components" content={content_3} white={true} />
             </div>
 
-        </div>
+        </div >
     );
 }
