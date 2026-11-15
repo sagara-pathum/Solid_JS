@@ -7,8 +7,11 @@ export default () => {
     <div class="site_header " classList={{
       "bg-gray-700 text-white": darkTheme()
     }}>
-      <div class="flex justify-between">
-        <p>this is header</p>
+      <div class="flex justify-between p-2">
+        <div class="flex gap-5">
+          <p class="hover:text-gray-600 hover:cursor-pointer">Home</p>
+          <p class="hover:text-gray-600 hover:cursor-pointer">Router</p>
+        </div>
         <span class="material-symbols-outlined cursor-pointer" onClick={changeThemeDark} >
           light_mode
         </span>
