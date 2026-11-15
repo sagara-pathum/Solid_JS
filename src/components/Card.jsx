@@ -1,14 +1,7 @@
-
 import { darkTheme } from "../theme/theme.js";
-
-
-
 export default (props) => {
-
-
-
     return (
-        <div class=" rounded-xl px-4 py-4 mx-4 h-60 block relative font-serif mt-1 w-150 shadow-md hover:shadow-2xl"
+        <div class=" rounded-xl px-4 py-4 mx-4 h-100 w-90 block relative font-serif shadow-md hover:shadow-2xl"
             classList={
                 {
                     "bg-blue-900 text-white shadow-inner": darkTheme(),
