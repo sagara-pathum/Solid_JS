@@ -29,7 +29,7 @@ export default () => {
                 <Show when={products()} fallback={<p>Loading Cards</p>}>
                     <For each={products()}>
                         {(product) => (
-                            <Card title={product.title} content={product.description} />
+                            <Card title={product.title} content={product.description} id={product.id} />
                         )}
                     </For>
                 </Show>
